@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import React from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom';
 
 
  
@@ -20,7 +21,7 @@ const Home = () => {
     Welcome on our website, Let's work together to empower the development and improve this infinite technologogy.
     </p>
     <p className='text-2xl text-gray-600 md:pb-10'>#Let's build a world technology</p> 
-    <button  className=' text-white rounded-full px-10 py-2 shadow-black shadow-2xl mt-6 hover:bg-white hover:text-white transition ease-in duration-300 hover:border-basic-border border-white bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 '>About Us</button>
+    <button  className=' text-white rounded-full px-10 py-2 shadow-black shadow-2xl mt-6 hover:bg-white hover:text-white transition ease-in duration-300 hover:border-basic-border border-white bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 '><Link to="/blog">About us</Link></button>
     
     </div>
     <div className=' overflow-hidden order-1  md:order-2 max-w-medium-max m-auto'>

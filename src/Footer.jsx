@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import { Link } from 'react-router-dom';
 const Footer = () => {
 
     useEffect(()=>{
@@ -12,20 +13,20 @@ const Footer = () => {
     <div className='flex  justify-around py-3 px-3'>
         <div className='text-center' data-aos="fade-right">
             <h1 className='text-medium font-semibold text-gray-900 pb-3'>Infinity Tech</h1>
-            <span className='text-gray-500'>#Who are we?</span>
-            <span className='block text-gray-500'>#Blog</span>
+            <span className='text-gray-500'><Link to="/blog">#Who are we?</Link></span>
+            <span className='block text-gray-500'><Link to="/blog">#Blog</Link></span>
         </div>
         <div className='text-center' data-aos="fade-right">
             <h1 className='text-medium font-semibold pb-3'>Timeliness</h1>
-            <span className='block text-gray-500'>#Recruitement</span>
-            <span className='block text-gray-500'>#Work with us</span>
+            <span className='block text-gray-500'><Link to="/blog">#Blog</Link></span>
+            <span className='block text-gray-500'><Link to="/blog">#Work with us</Link></span>
         </div>
         <div className='text-center' data-aos="fade-right">
             <h1 className='text-medium font-semibold pb-3'>Social</h1>
-            <p className='text-gray-500'>Github</p>
-<p className='text-gray-500'>LinkedIn</p>
-<p className='text-gray-500'>Instagram</p>
-<p className='text-gray-500'>Whatsapp</p>
+            <p className='text-gray-500'><Link to="https://github.com/sugirangendahayo">Github</Link></p>
+<p className='text-gray-500'><Link to="https://www.linkedin.com/in/SalomonElisha">LinkedIn</Link></p> 
+<p className='text-gray-500'><Link to="https://www.instagram.com/yourinstagramhandle">Instagram</Link></p>
+<p className='text-gray-500'><Link to="https://wa.me/+243907167367">Whatsapp</Link></p>
 
         </div>
     </div>
