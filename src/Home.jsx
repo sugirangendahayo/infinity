@@ -24,7 +24,7 @@ const Home = () => {
     
     </div>
     <div className=' overflow-hidden order-1  md:order-2 max-w-medium-max m-auto'>
-      <img src="img/Image1.png" alt="" className=' animate-bounce-slow max-full h-full' />
+      <img src="/static/img/Image1.png" alt="" className=' animate-bounce-slow max-full h-full' />
       </div>
       </div>
       <br />

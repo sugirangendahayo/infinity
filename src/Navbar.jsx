@@ -33,7 +33,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             {/* <a href="/" className="text-xl font-bold">Your Logo</a> */}
-            <img src="/img/inf2.png" alt="" className='w-28'/>
+            <img src="/static/img/inf2.png" alt="" className='w-28'/>
+           
           </div>
           <div className="hidden md:flex items-center">
             <NavLink to="/" style={({isActive})=>{

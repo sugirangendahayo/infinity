@@ -23,7 +23,7 @@ const Services = () => {
        <div className='flex justify-center'>
             <div className='md:grid grid-cols-2 justify-between w-auto-width '>
             <div className="services" data-aos="fade-up">
-                        <img src="/img/webss.jpg" alt="" className='' />
+                        <img src="/static/img/webss.jpg" alt="" className='' />
                         <div className="p-2 m-2 relative">
                             <span className="font-semibold text-xl">Creation of websites</span>
                             <span className="block text-gray-500 ">We specialize in crafting innovative and user-friendly websites that drive results.Our streamlined   ensures timely delivery of high-quality software.</span>
@@ -34,7 +34,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="services" data-aos="fade-up">
-                        <img src="/img/trainingweb.jpg" alt="" className='' />
+                        <img src="/static/img/trainingweb.jpg" alt="" className='' />
                         <div className="p-2 m-2 relative">
                             <span className="font-semibold text-xl">Web Training</span>
                             <span className="block text-gray-500 ">Master the fundamentals of web development through our hands-on training programs, covering HTML, CSS, JavaScript, and popular frameworks.</span>
@@ -44,7 +44,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="services" data-aos="fade-up">
-                        <img src="/img/design.jpg" alt="" className='' />
+                        <img src="/static/img/design.jpg" alt="" className='' />
                         <div className="p-2 m-2 relative">
                             <span className="font-semibold text-xl">Graphism and Design</span>
                             <span className="block text-gray-500 ">We specialize in creating visually stunning and impactful designs that elevate your brand and engage your audience.We offer comprehensive graphic and design services.</span>
@@ -54,7 +54,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="services" data-aos="fade-up">
-                        <img src="/img/writer.jpg" alt="" className='' />
+                        <img src="/static/img/writer.jpg" alt="" className='' />
                         <div className="p-2 m-2 relative">
                             <span className="font-semibold text-xl">Technical Writer</span>
                             <span className="block text-gray-500 "> we specialize in creating clear, concise, and informative technical documentation that empowers your users and enhances your product's value. delivering documentation that is easy to understand.</span>

@@ -23,7 +23,7 @@ const Team = () => {
           </div>
           <div className=' w-pixel-basic-width pt-3 rounded shadow-md m-auto mb-3 mt-2' data-aos="fade-up">
           <div className=' w-1/2 h-36 m-auto rounded-full flex cursor-pointer'>
-          <img src="img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
+          <img src="/static/img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
           </div>
            
             <div className='px-2 py-4 text-center'>
@@ -34,7 +34,7 @@ const Team = () => {
           <div className='md:grid grid-cols-2 gap-2'>
           <div className=' w-pixel-basic-width pt-3 rounded shadow-md m-auto mb-3' data-aos="fade-up">
           <div className=' w-1/2 h-36 m-auto rounded-full flex cursor-pointer'>
-          <img src="img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
+          <img src="/static/img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
           </div>
            
             <div className='px-2 py-4 text-center'>
@@ -44,7 +44,7 @@ const Team = () => {
           </div>
           <div className=' w-pixel-basic-width pt-3 rounded shadow-md m-auto mb-3' data-aos="fade-up">
           <div className=' w-1/2 h-36 m-auto rounded-full flex cursor-pointer'>
-          <img src="img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
+          <img src="/static/img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
           </div>
            
             <div className='px-2 py-4 text-center'>
@@ -54,7 +54,7 @@ const Team = () => {
           </div>
           <div className=' w-pixel-basic-width pt-3 rounded shadow-md m-auto mb-3' data-aos="fade-up">
           <div className=' w-1/2 h-36 m-auto rounded-full flex cursor-pointer'>
-          <img src="img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
+          <img src="/static/img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
           </div>
            
             <div className='px-2 py-4 text-center'>
@@ -64,7 +64,7 @@ const Team = () => {
           </div>
           <div className=' w-pixel-basic-width pt-3 rounded shadow-md m-auto mb-3' data-aos="fade-up">
           <div className=' w-1/2 h-36 m-auto rounded-full flex cursor-pointer'>
-          <img src="img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
+          <img src="/static/img/avatar.jpg" alt="" className='rounded-full hover:scale-105 duration-500'  />
           </div>
            
             <div className='px-2 py-4 text-center'>

@@ -24,7 +24,7 @@ const Blog = () => {
           </div>
           <div className='grid md:grid-cols-2 p-3 items-center'>
             <div className='bg-green-500 max-w-medium-max m-auto' data-aos="fade-up">
-              <img src="img/ref.jpg" alt="" className='w-full h-full ' />
+              <img src="/static/img/ref.jpg" alt="" className='w-full h-full ' />
             </div>
             <div className='text-center md:text-left px-4 py-3' data-aos="fade-up">
               <h1 className='text-3xl pb-4 bg-gradient-to-r from-black to-purple-700 text-transparent bg-clip-text font-semibold'>About me!</h1>
